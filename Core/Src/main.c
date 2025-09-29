@@ -136,11 +136,11 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 {
 
 
+
 	if(ON == tSysState.FlagGetAdcOn)
 	{
-		__BKPT(0);
-		tSiPmCtrl.CurrAdcVal 	= (uint16_t)(Adc_Temp[0]);
 
+		tSiPmCtrl.CurrAdcVal 	= (uint16_t)(Adc_Temp[0]);
 		tPdCtrl.CurrAdcVal  	= (uint16_t)(Adc_Temp[1]);
 		tLdCtrl.CurrAdcVal 		= (uint16_t)(Adc_Temp[2]);
 		tHvCtrl.CurrAdcVal 		= (uint16_t)(Adc_Temp[3]);

@@ -1102,6 +1102,7 @@ void RngOfPdAdcSamplingVal(uint16_t nAdcVal)
 {
 	//volatile uint16_t Tmp = nAdcVal;
 
+
 	uint8_t m_SelCurrPdAdcRng = 99;
 	uint8_t FlagGetOn = OFF;
 

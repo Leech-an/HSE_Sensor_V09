@@ -19,9 +19,9 @@
 ../Core/Src/Process.c:817:6:Manual_GetAdcMsg	16	static
 ../Core/Src/Process.c:901:6:PostMessage_Proc	8	static
 ../Core/Src/Process.c:1081:6:Operating_Process	8	static
-../Core/Src/Process.c:1101:6:RngOfPdAdcSamplingVal	24	static
-../Core/Src/Process.c:1175:6:RngOfSiPmAdcSamplingVal	16	static
-../Core/Src/Process.c:1199:6:Built_In_Test_Proc	16	static
-../Core/Src/Process.c:1659:6:SYSTEM_SEQ	8	static
-../Core/Src/Process.c:1781:6:SYSTEM_Process	8	static
-../Core/Src/Process.c:1790:6:SystemTimeCtrl	8	static
+../Core/Src/Process.c:1101:6:RngOfPdAdcSamplingVal	24	static,ignoring_inline_asm
+../Core/Src/Process.c:1177:6:RngOfSiPmAdcSamplingVal	16	static
+../Core/Src/Process.c:1201:6:Built_In_Test_Proc	16	static
+../Core/Src/Process.c:1661:6:SYSTEM_SEQ	8	static
+../Core/Src/Process.c:1783:6:SYSTEM_Process	8	static
+../Core/Src/Process.c:1792:6:SystemTimeCtrl	8	static

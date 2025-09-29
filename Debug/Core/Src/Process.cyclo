@@ -20,8 +20,8 @@
 ../Core/Src/Process.c:901:6:PostMessage_Proc	39
 ../Core/Src/Process.c:1081:6:Operating_Process	3
 ../Core/Src/Process.c:1101:6:RngOfPdAdcSamplingVal	21
-../Core/Src/Process.c:1175:6:RngOfSiPmAdcSamplingVal	6
-../Core/Src/Process.c:1199:6:Built_In_Test_Proc	57
-../Core/Src/Process.c:1659:6:SYSTEM_SEQ	31
-../Core/Src/Process.c:1781:6:SYSTEM_Process	1
-../Core/Src/Process.c:1790:6:SystemTimeCtrl	9
+../Core/Src/Process.c:1177:6:RngOfSiPmAdcSamplingVal	6
+../Core/Src/Process.c:1201:6:Built_In_Test_Proc	57
+../Core/Src/Process.c:1661:6:SYSTEM_SEQ	31
+../Core/Src/Process.c:1783:6:SYSTEM_Process	1
+../Core/Src/Process.c:1792:6:SystemTimeCtrl	9

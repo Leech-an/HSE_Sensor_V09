@@ -5234,59 +5234,59 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x08004578       0x38 ./Core/Src/Process.o
                 0x08004578                Operating_Process
  .text.RngOfPdAdcSamplingVal
-                0x080045b0      0x19c ./Core/Src/Process.o
+                0x080045b0      0x1a0 ./Core/Src/Process.o
                 0x080045b0                RngOfPdAdcSamplingVal
  .text.RngOfSiPmAdcSamplingVal
-                0x0800474c       0xa4 ./Core/Src/Process.o
-                0x0800474c                RngOfSiPmAdcSamplingVal
+                0x08004750       0xa4 ./Core/Src/Process.o
+                0x08004750                RngOfSiPmAdcSamplingVal
  .text.Built_In_Test_Proc
-                0x080047f0      0x908 ./Core/Src/Process.o
-                0x080047f0                Built_In_Test_Proc
+                0x080047f4      0x908 ./Core/Src/Process.o
+                0x080047f4                Built_In_Test_Proc
  .text.SYSTEM_SEQ
-                0x080050f8      0x244 ./Core/Src/Process.o
-                0x080050f8                SYSTEM_SEQ
+                0x080050fc      0x244 ./Core/Src/Process.o
+                0x080050fc                SYSTEM_SEQ
  .text.SYSTEM_Process
-                0x0800533c       0x18 ./Core/Src/Process.o
-                0x0800533c                SYSTEM_Process
+                0x08005340       0x18 ./Core/Src/Process.o
+                0x08005340                SYSTEM_Process
  .text.SystemTimeCtrl
-                0x08005354       0xb0 ./Core/Src/Process.o
+                0x08005358       0xb0 ./Core/Src/Process.o
  .text.UART_RxInit
-                0x08005404       0x34 ./Core/Src/Uart.o
-                0x08005404                UART_RxInit
+                0x08005408       0x34 ./Core/Src/Uart.o
+                0x08005408                UART_RxInit
  .text.UART_TxInit
-                0x08005438       0x70 ./Core/Src/Uart.o
-                0x08005438                UART_TxInit
+                0x0800543c       0x70 ./Core/Src/Uart.o
+                0x0800543c                UART_TxInit
  .text.UART_CMD_CHK
-                0x080054a8      0x1cc ./Core/Src/Uart.o
-                0x080054a8                UART_CMD_CHK
+                0x080054ac      0x1cc ./Core/Src/Uart.o
+                0x080054ac                UART_CMD_CHK
  .text.FindRcvMsgToPacket
-                0x08005674      0x264 ./Core/Src/Uart.o
-                0x08005674                FindRcvMsgToPacket
+                0x08005678      0x264 ./Core/Src/Uart.o
+                0x08005678                FindRcvMsgToPacket
  .text.RcvMsgErrAssambly
-                0x080058d8      0x124 ./Core/Src/Uart.o
-                0x080058d8                RcvMsgErrAssambly
+                0x080058dc      0x124 ./Core/Src/Uart.o
+                0x080058dc                RcvMsgErrAssambly
  .text.UART_MsgProc
-                0x080059fc       0x5c ./Core/Src/Uart.o
-                0x080059fc                UART_MsgProc
+                0x08005a00       0x5c ./Core/Src/Uart.o
+                0x08005a00                UART_MsgProc
  .text.UART_Init
-                0x08005a58       0x88 ./Core/Src/Uart.o
-                0x08005a58                UART_Init
+                0x08005a5c       0x88 ./Core/Src/Uart.o
+                0x08005a5c                UART_Init
  .text.UART_StuffAssambly
-                0x08005ae0      0x17c ./Core/Src/Uart.o
-                0x08005ae0                UART_StuffAssambly
+                0x08005ae4      0x17c ./Core/Src/Uart.o
+                0x08005ae4                UART_StuffAssambly
  .text.UART_Chksum
-                0x08005c5c       0x4a ./Core/Src/Uart.o
-                0x08005c5c                UART_Chksum
- *fill*         0x08005ca6        0x2 
+                0x08005c60       0x4a ./Core/Src/Uart.o
+                0x08005c60                UART_Chksum
+ *fill*         0x08005caa        0x2 
  .text.HAL_GPIO_EXTI_Callback
-                0x08005ca8       0x2c ./Core/Src/main.o
-                0x08005ca8                HAL_GPIO_EXTI_Callback
+                0x08005cac       0x2c ./Core/Src/main.o
+                0x08005cac                HAL_GPIO_EXTI_Callback
  .text.HAL_UARTEx_RxEventCallback
-                0x08005cd4       0x7c ./Core/Src/main.o
-                0x08005cd4                HAL_UARTEx_RxEventCallback
+                0x08005cd8       0x7c ./Core/Src/main.o
+                0x08005cd8                HAL_UARTEx_RxEventCallback
  .text.HAL_ADC_ConvCpltCallback
-                0x08005d50       0x74 ./Core/Src/main.o
-                0x08005d50                HAL_ADC_ConvCpltCallback
+                0x08005d54       0x70 ./Core/Src/main.o
+                0x08005d54                HAL_ADC_ConvCpltCallback
  .text.UART_Transmit_Proc
                 0x08005dc4       0x3c ./Core/Src/main.o
                 0x08005dc4                UART_Transmit_Proc
@@ -6403,9 +6403,9 @@ LOAD C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x00001eb1      0xa6a ./Core/Src/Fan.o
  .debug_line    0x0000291b      0xbad ./Core/Src/Mesaure.o
  .debug_line    0x000034c8     0x12b5 ./Core/Src/Parameter.o
- .debug_line    0x0000477d     0x20fd ./Core/Src/Process.o
- .debug_line    0x0000687a      0xf33 ./Core/Src/Uart.o
- .debug_line    0x000077ad      0xd3e ./Core/Src/main.o
+ .debug_line    0x0000477d     0x2100 ./Core/Src/Process.o
+ .debug_line    0x0000687d      0xf33 ./Core/Src/Uart.o
+ .debug_line    0x000077b0      0xd3b ./Core/Src/main.o
  .debug_line    0x000084eb      0x965 ./Core/Src/stm32l4xx_hal_msp.o
  .debug_line    0x00008e50      0x8fe ./Core/Src/stm32l4xx_it.o
  .debug_line    0x0000974e      0x85d ./Core/Src/system_stm32l4xx.o
